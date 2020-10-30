@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <h1>KARN</h1>,
+  <App/>,
   document.getElementById('root')
 );
 
