@@ -43,7 +43,7 @@ Q3.Write  a  lex  program to  design  a  DFA  over input {a,b}, which  accepts  
 
 Q4.Given a text file, write a lex program to search aninput word in the file. If the word is present then count the total number of its occurrences, and replace every odd occurrenceof the word with your roll number.
 
-#ASSIGNMENT 3:
+#ASSIGNMENT 4:
 
 
 Q1.Write a Lex program to accept your Roll Number.
