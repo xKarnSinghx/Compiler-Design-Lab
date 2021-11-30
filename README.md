@@ -42,3 +42,17 @@ Q3.Write  a  lex  program to  design  a  DFA  over input {a,b}, which  accepts  
 
 
 Q4.Given a text file, write a lex program to search aninput word in the file. If the word is present then count the total number of its occurrences, and replace every odd occurrenceof the word with your roll number.
+
+#ASSIGNMENT 3:
+
+
+Q1.Write a Lex program to accept your Roll Number.
+
+
+Q2.A story has been written and saved in file, later you have given a task to search given word in the story. Write a Lex program to accomplish this task.
+
+
+Q3.Write a Lex program that accept a string start with 'b’ and end with 'a' over input alphabet a, b.
+
+
+Q4.Write a Lex program accept 'baba' as a substring over input alphabet a, b.
