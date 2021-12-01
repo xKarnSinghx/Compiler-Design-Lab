@@ -56,3 +56,18 @@ Q3.Write a Lex program that accept a string start with 'b’ and end with 'a' ov
 
 
 Q4.Write a Lex program accept 'baba' as a substring over input alphabet a, b.
+
+
+#ASSIGNMENT 4:
+
+
+Q1.Write a YACC program to implement following arithmetic operations Addition, Subtraction, Multiplication, and Division. Also print whether a arithmetic expression is valid or not.
+
+
+Q2. Write a YACC program to recognize string over alphabet {a,b} having equal no. of ‘a, and equal no of ‘b’ and length of string is greater than equal to zero.
+
+
+Q3.Write and YACC program which accept string that starts and end with 0 or 1.
+
+
+Q4.Write an YACC program to convert base 2 digit to base 10 digit.
