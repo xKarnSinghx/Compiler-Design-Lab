@@ -58,7 +58,7 @@ Q3.Write a Lex program that accept a string start with 'b’ and end with 'a' ov
 Q4.Write a Lex program accept 'baba' as a substring over input alphabet a, b.
 
 
-#ASSIGNMENT 4:
+#ASSIGNMENT 5:
 
 
 Q1.Write a YACC program to implement following arithmetic operations Addition, Subtraction, Multiplication, and Division. Also print whether a arithmetic expression is valid or not.
