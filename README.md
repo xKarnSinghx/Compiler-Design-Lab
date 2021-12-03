@@ -71,3 +71,28 @@ Q3.Write and YACC program which accept string that starts and end with 0 or 1.
 
 
 Q4.Write an YACC program to convert base 2 digit to base 10 digit.
+
+
+#ASSIGNMENT 6:
+
+
+Q1.A student needs to check whether the given number is palindrome or not? He  had  the  problem  of  reversing  the  number.  Write  a YACC program  that can solve his problem.
+
+
+
+Q2.A grammar is given: a^nb^nc^md^m, where n, m>=0. Check the validity of the following strings “abcd” and “aabbcd” using the given grammar with the help of a YACC program.
+
+
+Q3.A C program file is given to a student and he was asked to recognize valid identifiers,  operators  and  keywords  in  the  given  program.  Write  a  YACC program that can solve his task.
+
+
+
+Q4.Let's  say  we  have  a  thermostat  that  we  want  to  control  using  a  simple language. 
+A session with the thermostat may look like this:
+heat on
+  Heater on!
+heat off
+   Heater off!
+target temperature 22
+    New temperature set!
+Write a YACC program that can control the thermostat.
