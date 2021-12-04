@@ -96,3 +96,20 @@ heat off
 target temperature 22
     New temperature set!
 Write a YACC program that can control the thermostat.
+
+
+
+#ASSIGNMENT 7:
+
+
+
+Q1.a)write C program to eliminate left recursion of following grammar.
+E -> E + T / T
+T -> T * F/ F
+F -> id
+
+
+Q1.b)write C program to find First and Follow sets of following grammar .
+E -> E + T / T
+T -> T * F/ F
+F -> id
