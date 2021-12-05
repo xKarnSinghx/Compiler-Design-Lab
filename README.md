@@ -113,3 +113,13 @@ Q1.b)write C program to find First and Follow sets of following grammar .
 E -> E + T / T
 T -> T * F/ F
 F -> id
+
+
+#ASSIGNMENT 8:
+
+
+Q1.Every compiler has intermediate code representation phase. Given the set of expression:a+b+c*d/e+f.
+Write a C program that can find the quadruples ofthe given expressionfor intermediate code representation.
+
+
+Q2.Write  a  program in  C to  find  three  address  codeusing  triples for  the following set of input expression: a = b * –c + b * –c.
