@@ -123,3 +123,41 @@ Write a C program that can find the quadruples ofthe given expressionfor interme
 
 
 Q2.Write  a  program in  C to  find  three  address  codeusing  triples for  the following set of input expression: a = b * –c + b * –c.
+
+
+#ASSIGNMENT 9:
+
+
+Q.1)Write a program to generate the three-address code for the following code of ‘if-else’.
+if-else code:
+A = 1;
+B = 2;
+if (A<B)
+  return 1;
+else
+  return 0;
+  
+
+
+Q.2)Write a program to generate the three-address code for the following code of ‘for-loop’.
+for-loop code:
+a=3;
+b=4;
+n=6;
+for(i=0;i<n;i++){
+a=b+1;
+a=a*a;
+}
+c=a;
+
+
+
+Q.3)Write a program to generate the three-address code for the following code of ‘while-loop’.
+while-loop code:
+c = 0;
+a = 1;
+b = 2;
+while(a < b){
+ c = 1;
+}
+c = 0;
