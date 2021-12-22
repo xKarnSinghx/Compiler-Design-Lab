@@ -1,0 +1,31 @@
+
+
+	 STORE t1 2
+
+	 STORE a[0],1
+
+	 STORE a[1],2
+
+	 STORE a[2],3
+
+ 	 LOAD t1,R0
+ 	 LOAD 6,R1
+ 	 MUL R1,R0
+ 	 STORE R0,t2
+
+ 	 LOAD a[2],R0
+ 	 LOAD t2,R1
+ 	 ADD R1,R0
+ 	 STORE R0,t3
+
+ 	 LOAD a[2],R0
+ 	 LOAD t1,R1
+ 	 SUB R1,R0
+ 	 STORE R0,t2
+
+ 	 LOAD t3,R0
+ 	 LOAD t2,R1
+ 	 DIV R1,R0
+ 	 STORE R0,t2
+
+	 OUT t2
