@@ -88,13 +88,29 @@ Q3.A C program file is given to a student and he was asked to recognize valid id
 
 
 Q4.Let's  say  we  have  a  thermostat  that  we  want  to  control  using  a  simple language. 
+
+
 A session with the thermostat may look like this:
+
+
 heat on
+
+
   Heater on!
+  
+  
 heat off
+
+
    Heater off!
+   
+   
 target temperature 22
+
+
     New temperature set!
+    
+    
 Write a YACC program that can control the thermostat.
 
 
@@ -104,14 +120,26 @@ Write a YACC program that can control the thermostat.
 
 
 Q1.a)write C program to eliminate left recursion of following grammar.
+
+
 E -> E + T / T
+
+
 T -> T * F/ F
+
+
 F -> id
 
 
 Q1.b)write C program to find First and Follow sets of following grammar .
+
+
 E -> E + T / T
+
+
 T -> T * F/ F
+
+
 F -> id
 
 
@@ -119,6 +147,8 @@ F -> id
 
 
 Q1.Every compiler has intermediate code representation phase. Given the set of expression:a+b+c*d/e+f.
+
+
 Write a C program that can find the quadruples ofthe given expressionfor intermediate code representation.
 
 
@@ -129,44 +159,94 @@ Q2.Write  a  program in  C to  find  three  address  codeusing  triples for  the
 
 
 Q.1)Write a program to generate the three-address code for the following code of ‘if-else’.
+
+
 if-else code:
+
+
 A = 1;
+
+
 B = 2;
+
+
 if (A<B)
+
+
   return 1;
+  
+  
 else
+
+
   return 0;
   
 
 
 Q.2)Write a program to generate the three-address code for the following code of ‘for-loop’.
+
+
 for-loop code:
+
+
 a=3;
+
+
 b=4;
+
+
 n=6;
+
+
 for(i=0;i<n;i++){
+
+
 a=b+1;
+
+
 a=a*a;
+
+
 }
+
+
 c=a;
 
 
 
 Q.3)Write a program to generate the three-address code for the following code of ‘while-loop’.
+
+
 while-loop code:
+
+
 c = 0;
+
+
 a = 1;
+
+
 b = 2;
+
+
 while(a < b){
+
+
  c = 1;
+ 
+ 
 }
+
+
 c = 0;
 
 
 #ASSIGNMENT 10:
 
 
-Q.1)In  the  syntax  analyzer  phase  of  the  compiler,  the  parser generates  the abstract syntax tree (condensed form of the parsetree). This abstract syntax tree needs to be converted into machine understandable format using the intermediate  code  generator.  
+Q.1)In  the  syntax  analyzer  phase  of  the  compiler,  the  parser generates  the abstract syntax tree (condensed form of the parsetree). This abstract syntax tree needs to be converted into machine understandable format using the intermediate  code  generator. 
+
+
 Write  a  program  in  C  to convert  the  given abstract syntaxes into their equivalent machine codes. The following specific machine instruction sets may be considered:
 
 
