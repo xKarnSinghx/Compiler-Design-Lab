@@ -190,17 +190,41 @@ The instruction set may bedefined as follows:
 
 
 LOAD A,R→loads the integer value specified by A into register R
+
+
 STORE R,V→stores the value in register R to variable V.
+
+
 OUT R→outputs the value in register R.
+
+
 ADD A,R→adds the value specified by A to register R.
+
+
 SUB A,R→subtracts the value specified by A from register R.
+
+
 MUL A,R→multiplies the value specified by A by register R.
+
+
 DIV A,R→divides register R by the value specified by A.
+
+
 STOP→stops execution of the machine.
+
+
 Example:
+
+
 Input:= t3 99
+
+
 Output:  STORE t3, 99
+
+
 Input may be considered as:= 
+
+
 = t1 2
 []= a 0 1
 []= a 1 2
