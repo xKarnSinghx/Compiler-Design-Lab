@@ -166,18 +166,29 @@ c = 0;
 #ASSIGNMENT 10:
 
 
-Q.1)In  the  syntax  analyzer  phase  of  the  compiler,  the  parser 
- generates  the abstract syntax tree (condensed form of the parse
- tree). This abstract syntax tree needs to be converted into machine 
-understandable format using the intermediate  code  generator.  
-Write  a  program  in  C  to convert  the  given abstract syntaxes
- into their equivalent machine codes. The following specific machine instruction sets may be considered:
+Q.1)In  the  syntax  analyzer  phase  of  the  compiler,  the  parser generates  the abstract syntax tree (condensed form of the parsetree). This abstract syntax tree needs to be converted into machine understandable format using the intermediate  code  generator.  
+Write  a  program  in  C  to convert  the  given abstract syntaxes into their equivalent machine codes. The following specific machine instruction sets may be considered:
+
+
+
 Following argument types may be used:
+
+
 R →specifies a register in the form R0, R1, R2,etc.
+
+
 L →specifies a numerical label.
+
+
 V →specifies a `variable location'pointed to by a register.
+
+
 A →specifies a constant value.
+
+
 The instruction set may bedefined as follows:
+
+
 LOAD A,R→loads the integer value specified by A into register R
 STORE R,V→stores the value in register R to variable V.
 OUT R→outputs the value in register R.
